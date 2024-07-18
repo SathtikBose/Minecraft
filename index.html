@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo border">
+                <img src="images/minecraft-logo.png" alt="">
+            </div>
+            <div class="nav-elements ">
+                <p class="border">GAMES <i class="fa-solid fa-caret-down"></i></p>
+                <p class="border">SHOP <i class="fa-solid fa-caret-down"></i></p>
+                <p class="border">COMMUNITY <i class="fa-solid fa-caret-down"></i></p>
+                <p class="border">SUPPORT <i class="fa-solid fa-caret-down"></i></p>
+            </div>
+             <div class="account border">
+                <p><i class="fa-solid fa-lock"></i> ACCOUNT</p>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="hero1" id="hero">
+                <div class="hero-usl-panel"></div>
+                <div class="hero-panel">
+                    <div class="hero-panel-text1">
+                        <h1>The Summer Celebration returns</h1>
+                    </div>
+                    <div class="hero-panel-text2">
+                        <p>Whether you’re a visionary creator, fearless survivor, loyal multiplayer, or eager newbie, there's something for everyone.</p>
+                    </div>
+                    <div class="hero-panel-text3">
+                        <button>SHOP NOW ></button>
+                        <h5>Get Minecraft </h5>
+                    </div>
+                </div>
+                <div class="hero-panel-img-grid">
+                    <img src="images/Hero-mini1.jpg" class="mini-logo" alt="" onclick="changeClass('hero1')">
+                    <img src="images/hero-mini2.jpg" class="mini-logo" alt="" onclick="changeClass('hero2')">
+                    <img src="images/Hero-mini3.jpg" class="mini-logo" alt="" onclick="changeClass('hero3')">
+                    <img src="images/Hero-mini4.jpg" class="mini-logo" alt=""onclick="changeClass('hero4')">
+                </div>
+                <div class="hero-usl-panel-2"></div>
+            </div>
+        </section>
+        <section>
+            <div class="games-h">
+                <h1>DISCOVER OUR GAMES</h1>
+            </div>
+            <div class="game-list">
+                <div class="game-list-1">
+                    <div class="game1-list-data dv-icon">
+                        <img src="images/games-Minecarft.jpg" alt="">
+                        <h2>Minecraft</h2>
+                        <p>Sandbox Survival, Adventure</p>
+                        <p>single-player, Multiplayer</p>
+                        <br>
+                        <hr>
+                        <i class="fa-brands fa-windows"></i>
+                        <i class="fa-brands fa-linux"></i>
+                        <i class="fa-brands fa-xbox"></i>
+                        <i class="fa-brands fa-playstation"></i>
+                        <i class="fa-brands fa-apple"></i>
+                        <i class="fa-brands fa-android"></i>
+                        <i class="fa-brands fa-chrome"></i>
+                    </div>
+                </div>
+                <div class="game-list-2">
+                    <div class="game2-list-data dv-icon">
+                        <img src="images/games-Minecraft Dungeons.jpg" alt="">
+                        <h2>Minecraft Dungeons</h2>
+                        <p>Dungeon Crawl, Action RPG</p>
+                        <p>Single-player + Multiplayer</p>
+                        <br>
+                        <hr>
+                        <i class="fa-brands fa-windows"></i>
+                        <i class="fa-brands fa-xbox"></i>
+                        <i class="fa-brands fa-playstation"></i>
+                        <i class="fa-brands fa-steam"></i>
+                    </div>  
+                </div>
+                <div class="game-list-3">
+                    <div class="game3-list-data dv-icon">
+                        <img src="images/games-minecraft Legends.jpg" alt="">
+                        <h2>Minecraft Legends</h2>
+                        <p>Action RPG, Statergy</p>
+                        <p>Single-player + Multiplayer</p>
+                        <br>
+                        <hr>
+                        <i class="fa-brands fa-windows"></i>
+                        <i class="fa-brands fa-xbox"></i>
+                        <i class="fa-brands fa-playstation"></i>
+                        <i class="fa-brands fa-steam"></i>
+                    </div>
+                </div>
+                <div class="game-list-4">
+                    <div class="game4-list-data dv-icon">
+                        <img src="images/games-Minecraft Education.jpg" alt="">
+                        <h2>Minecraft Education</h2>
+                        <p>Education, Sandbox Survival, Adventure</p>
+                        <p>Single-player + Multiplayer</p>
+                        <br>
+                        <hr>
+                        <i class="fa-brands fa-windows"></i>
+                        <i class="fa-brands fa-apple"></i>
+                        <i class="fa-brands fa-chrome"></i>
+                        <i class="fa-brands fa-android"></i>
+                    </div>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <div class="head-2">
+                <h1>GAMEPLAY TRAILERS</h1>
+            </div>
+            <div class="trailers-panel-1">
+                <div class="video-button" id="button1" onclick="showVideo('https://www.youtube.com/embed/0Cbw1b2mkGk?si=yGJWFblZgKbBbBg2', this)">
+                    <img src="images/Minecraft-logo-mini.png" alt="">
+                    <h1>Minecraft</h1>
+                </div>
+                <div class="video-button" id="button2" onclick="showVideo('https://www.youtube.com/embed/CoZ2V7XsSYk?si=6wTEv0mU8Z1wfivt', this)">
+                    <img src="images/Minecraft-Dungeons-logo-mini.png" alt="" >
+                    <h1>Minecraft Dungeons</h1>
+                </div>
+                <div class="video-button" id="button3" onclick="showVideo('https://www.youtube.com/embed/VXC9NPueCd4?si=52Vq9WpNVbSf47oz', this)">
+                    <img src="images/Minecraft-Legends-logo-mini.jpg" alt="">
+                    <h1>Minecraft Legends</h1>
+                </div>
+                <div class="video-button" id="button4" onclick="showVideo('https://www.youtube.com/embed/VIvW0ErtIgA?si=zI0BCXn_xx43p8PN', this)">
+                    <img src="images/Minecraft-education-logo-mini.jpg" alt="">
+                    <h1>Minecraft Education</h1>
+                </div>
+            </div>
+            <div class="trailers-panel-2">
+                <div class="trailer-panel-video">
+                    <iframe id="video-frame" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="follow-icon">
+                <div class="f-icon i-1">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="f-icon i-2">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="f-icon i-3">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="f-icon i-4">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+                <div class="f-icon i-5">
+                    <i class="fa-brands fa-reddit-alien"></i>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="final-panel">
+               <div class="final-panel-1">
+                    <div class="final-panel-img">
+                        <img src="images/MojangLogo.png" alt="" style="width: 130px; height: 111px;">
+                        <img src="images/Logo_Xbox_Game_Studio.webp" alt="" style="height: 111px; width: 203px;">
+                    </div>
+                    <div class="final-panel-text">
+                        <br>
+                        <p style="color: #FFFFFF; font-size: 12px;">© 2024 Mojang AB. TM Microsoft Corporation.</p>
+                        <br>
+                        <a>Minecraft Usage Guidelines</a>
+                    </div>
+               </div>
+               <div class="final-panel-2">
+                    <p class="final-panel-p">Games</p>
+                    <p class="final-panel-a">Minecraft</p>
+                    <p class="final-panel-a">Minecraft Dungeons</p>
+                    <p class="final-panel-a">Minecraft Legends</p>
+                    <p class="final-panel-a">Minecraft Education</p>
+                    <p class="final-panel-p">Community</p>
+                    <p class="final-panel-a">Community</p>
+                    <p class="final-panel-a">Creator Learning Portal</p>
+                    <p class="final-panel-a">Mojang Studios Careers</p>
+                    <p class="final-panel-a">Build a Better World</p>
+               </div>
+               <div class="final-panel-3">
+                    <p class="final-panel-p">Shop</p>
+                    <p class="final-panel-a">Marketplace</p>
+                    <p class="final-panel-a">Minecraft Shop</p>
+                    <p class="final-panel-p">Support</p>
+                    <p class="final-panel-a">Tips for Beginners</p>
+                    <p class="final-panel-a">Discussions & Help</p>
+                    <p class="final-panel-a">Feedback</p>
+                    <p class="final-panel-a">Site Map</p>
+                    <p class="final-panel-a">Download</p>
+                    <p class="final-panel-a">Contact us</p>
+                    <p class="final-panel-p">Account</p>
+                    <p class="final-panel-a">Profile</p>
+                    <p class="final-panel-a">Redeem</p>
+               </div>
+               <div class="final-panel-4">
+                    <img src="images/stamp-logo.jpg" alt="" style="width: 242px; height: 160px;">
+               </div>   
+            </div>
+        </section>
+        <section>
+            <div class="final-footer">
+                <div class="final-footer-text-1">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>English</p>
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+                <div class="final-footer-text-2">
+                    <p>Privacy and Cookies</p>
+                    <p>Terms of use</p>
+                    <p>Trademarks</p>
+                    <p>About our ads</p>
+                    <p>© 2024 Microsoft</p>
+                </div>
+                <div class="final-footer-text-3">
+                    <img src="images/Logo_ Microsoft.jpg" alt="" style="width: 24px; height: px;">
+                    <p>Microsoft</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
